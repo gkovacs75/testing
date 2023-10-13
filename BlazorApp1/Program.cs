@@ -7,12 +7,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Another hange
 // Some change 1 on dev
-<<<<<<< HEAD
-=======
-// Dev - Future 1
-// Dev - Future 2
-// Dev - Bug fix 1
->>>>>>> d01a8b6 (dev-bugfix-1)
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
